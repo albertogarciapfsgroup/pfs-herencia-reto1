@@ -14,7 +14,6 @@ class Electrodomestico():
 
     # Constructor de la clase
     def __init__(self, newColor, newConsumo, newPeso):
-        self.precio_base = newColor
         self.color = self.comprobarColor(newColor)
         self.consumo = self.comprobarConsumoEnergetico(newConsumo)
         self.peso = newPeso
